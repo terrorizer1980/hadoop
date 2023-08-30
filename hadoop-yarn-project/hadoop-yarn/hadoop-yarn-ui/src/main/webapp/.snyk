@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > hoek
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > boom > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > boom > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > boom > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > boom > hoek
+    - em-helpers > ember-cli-less > broccoli-less-single > less > request > hawk > sntp > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-helpers > ember-cli-less > broccoli-less-single > less > request >
+          hawk > sntp > hoek
+    - em-table > ember-cli-less > broccoli-less-single > less > request > hawk > sntp > hoek:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          em-table > ember-cli-less > broccoli-less-single > less > request >
+          hawk > sntp > hoek
+  'npm:tunnel-agent:20170305':
+    - em-helpers > phantomjs-prebuilt > request > tunnel-agent:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: em-helpers > phantomjs-prebuilt > request > tunnel-agent
+    - em-table > phantomjs-prebuilt > request > tunnel-agent:
+        patched: '2023-08-30T16:46:20.367Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: em-table > phantomjs-prebuilt > request > tunnel-agent
