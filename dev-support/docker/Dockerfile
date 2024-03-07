@@ -17,7 +17,7 @@
 # Dockerfile for installing the necessary dependencies for building Hadoop.
 # See BUILDING.txt.
 
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 WORKDIR /root
 
