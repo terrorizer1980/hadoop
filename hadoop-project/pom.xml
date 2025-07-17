@@ -2383,7 +2383,7 @@
         </property>
       </activation>
       <properties>
-        <hbase.version>${hbase.one.version}</hbase.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
         <hbase-compatible-hadoop.version>2.5.1</hbase-compatible-hadoop.version>
         <hbase-compatible-guava.version>12.0.1</hbase-compatible-guava.version>
         <hbase-server-artifactid>hadoop-yarn-server-timelineservice-hbase-server-1</hbase-server-artifactid>
@@ -2410,7 +2410,7 @@
         </property>
       </activation>
       <properties>
-        <hbase.version>${hbase.two.version}</hbase.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
         <hbase-compatible-hadoop.version>3.0.0</hbase-compatible-hadoop.version>
         <hbase-compatible-guava.version>11.0.2</hbase-compatible-guava.version>
         <hbase-server-artifactid>hadoop-yarn-server-timelineservice-hbase-server-2</hbase-server-artifactid>
